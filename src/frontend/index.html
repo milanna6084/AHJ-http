@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/fonts-awesome-4.7.0/css/font-awesome.min.css"> -->
+  <!--<link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="button-wrapper">
+      <button class="button button-add">Добавить тикет</button>
+    </div>
+    <ul class="tasks">
+    </ul>
+  </div>
+
+  <form class="form form_add-ticket">
+    <p class="form-name"> Добавить тикет </p>
+    <label> Краткое описание</label>
+    <input type="text" class="short-dis" name="shortDis">
+    <label> Полное описание</label>
+    <textarea type="text" class="full-dis" name="fullDis"></textarea>
+    <div class="button-wrapper">
+      <button class="button button-cancel">Отмена</button>
+      <button class="button button-ok">Ок</button>
+    </div>
+  </form>
+
+  <form class="form form_edit-ticket">
+    <p class="form-name">Изменить тикет </p>
+    <label> Краткое описание</label>
+    <input type="text" class="short-dis">
+    <label> Полное описание</label>
+    <textarea type="text" class="full-dis" name="fullDis"></textarea>
+    <div class="button-wrapper">
+      <button class="button button-cancel">Отмена</button>
+      <button class="button button-ok">Ок</button>
+    </div>
+  </form>
+
+  <form class="form form_remove-ticket">
+    <p class="form-name"> Удалить тикет </p>
+    <p>
+      Вы действительно уверены, что хотите удалить этот тикет?
+      Это действие необратимо.
+    </p>
+    <div class="button-wrapper">
+      <button class="button button-cancel">Отмена</button>
+      <button class="button button-ok">Ок</button>
+    </div>
+  </form>
+  <!-- <script src="js/app.js"></script> -->
+</body>
+
+</html>

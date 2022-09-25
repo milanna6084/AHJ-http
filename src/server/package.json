@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js",
+    "watch": "nodemon -w index.js",
+    "lint": "eslint --resolve-plugins-relative-to ."
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "nodemon": "^2.0.16"
+  }
+}

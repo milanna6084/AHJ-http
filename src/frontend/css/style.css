@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+
+body {
+  min-width: 700px;
+  min-height: 400px; 
+  background-image: url("../images/fon.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(57, 57, 57);
+}
+
+.content {
+  margin-left: 40px;
+  width: 700px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  font: inherit;
+  color: rgb(57, 57, 57);
+  margin-right: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-add {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.tasks {
+  list-style-type: none;
+  background-color: white;
+  border: 2px solid black;
+}
+
+
+.task {
+  display: flex; 
+  align-content: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.control {
+  width: 15px;
+  height: 15px;
+  text-align: center; 
+  margin-right: 5px;
+  padding: 6px;
+  border:1px solid black;
+  border-radius: 50%;
+}
+
+.task-item {
+  width: 400px;
+  margin-top: 7px;
+  padding-left: 10px;
+
+} 
+
+.task-discription {
+  display: none;
+  margin-top: 20px;
+}
+
+.date {
+  margin-top: 7px;
+  width: 150px;
+}
+
+.form {
+  display: none;
+ /* display: flex; */
+  flex-direction: column;
+  width: 400px;
+  position: fixed;
+  top: 100px;
+  left:0;
+  right:0;
+  margin:auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+.form p {
+  margin-bottom: 20px;
+}
+.form-name {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.form label {
+  margin-bottom: 10px;
+}
+
+.form input,
+.form textarea {
+  flex-grow: 1;
+  margin-bottom: 15px;
+  font: inherit;
+  color: rgb(57, 57, 57);
+}
+
+input.short-dis {
+  height: 20px;
+}
+
+textarea.full-dis {
+  height: 50px;
+  resize: none;
+}
+
+
+
+
+
